@@ -1,0 +1,74 @@
+.apresentacao {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 40px 120px;
+
+    background-color: white;
+}
+
+.apresentacao .info {
+    width: 60%;
+}
+
+.serial {
+    border-left: 2px solid var(--gold-color);
+
+    padding: 8px 24px;
+
+    font-weight: 500;
+    font-size: 20px;
+
+    color: var(--gold-color);
+}
+
+.name {
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.apresentacao p {
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.quote {
+    color: var(--gold-color);
+}
+
+.doctor-wrapper {
+    position: relative;
+}
+
+.doctor {
+    position: relative;
+
+    width: 25vw;
+    height: 20vw;
+
+    overflow: hidden;
+
+    border-radius: 8px;
+
+    background: linear-gradient(to bottom, #DBB45833, #DBB45800), url('/clinic.png') no-repeat center center;
+    background-size: cover;
+    z-index: 9;
+}
+
+.golden-border {
+    position: absolute;
+    top: -16px;
+    left: 16px;
+    width: 25vw;
+    height: 20vw;
+    border: 1px solid var(--gold-color);
+    border-radius: 8px;
+
+    z-index: 1;
+}
+
+.doctor img {
+    width: 100%;
+}
