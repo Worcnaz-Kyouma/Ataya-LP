@@ -15,6 +15,6 @@ export default function Depoimentos() {
                 <Depoimento name="Maria" depoimento="Atendimento nota 10, desde a recepção até o tratamento. Parabéns a toda equipe, pelo profissionalismo e carinho que tratam os clientes!"/>
             </div>
         </content>
-        <Depoimento name="Joe Doe" depoimento="Atendimento nota 10, desde a recepção até o tratamento. Parabéns a toda equipe, pelo profissionalismo e carinho que tratam os clientes!"/>
+        <Depoimento model="alternate" name="Joe Doe" depoimento="Atendimento nota 10, desde a recepção até o tratamento. Parabéns a toda equipe, pelo profissionalismo e carinho que tratam os clientes!"/>
     </div>
 }

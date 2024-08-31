@@ -1,0 +1,41 @@
+.tratamento-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+    width: 280px;
+
+    border: 1px solid #ddd;
+    border-radius: 8px;
+
+    padding: 16px;
+
+    background-color: #f9f9f9;
+}
+
+.tratamento-icon {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+
+    margin-bottom: 16px;
+}
+
+.tratamento-content {
+    display: flex;
+    flex-direction: column;
+    
+    gap: 8px;
+}
+
+.tratamento-title {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.tratamento-text {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 5px 0 0;
+}

@@ -1,0 +1,11 @@
+.tratamentos {
+    padding: 40px 120px;
+}
+
+.tratamentos content {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+
+    margin-top: 40px;
+}
