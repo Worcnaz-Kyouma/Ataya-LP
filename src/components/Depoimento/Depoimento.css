@@ -1,0 +1,20 @@
+.depoimento-cliente {
+    display: flex;
+    flex-direction: column;
+}
+
+.depoimento-nome {
+    font-weight: 700;
+    font-size: 36px;
+
+    color: var(--gold-color);
+}
+
+.depoimento-text {
+    font-weight: 500;
+    font-size: 24px;
+
+    font-style: italic;
+    
+    color: white;
+}

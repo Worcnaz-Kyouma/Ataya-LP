@@ -1,0 +1,42 @@
+.depoimentos {
+    background-color: #101828;
+
+    padding: 40px 120px;
+}
+
+.depoimentos .title {
+    color: white;
+    margin-bottom: 24px;
+}
+
+.depoimentos content {
+    position: relative;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.depoimentos .dentada-wrapper {
+    position: relative;
+    width: 34vw;
+    height: 20vw;
+
+    border: 2px solid var(--gold-color);
+    padding: 8px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.dentada-wrapper img {
+    width: 100%;
+    height: 100%;
+}
+
+.depoimentos-clientes {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    width: 50%;
+}
