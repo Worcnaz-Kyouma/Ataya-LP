@@ -6,7 +6,7 @@ export default function Home() {
             <img className="logo" src="/logo.png" alt="Hassan Ataya Odontologia" />
             <nav><ul>
                 <li>Quem somos</li>
-                <li>Transformação</li>
+                <li>Depoimentos</li>
                 <li>Tratamentos</li>
                 <li>Nossa localização</li>
                 <li>Fale conosco</li>
