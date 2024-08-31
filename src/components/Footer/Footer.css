@@ -1,0 +1,84 @@
+footer .title {
+    margin-left: 120px;
+    margin-bottom: 16px;
+}
+
+footer content {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.localizacao {
+    width: 50%;
+}
+
+.footer-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    padding-top: 40px;
+    padding-left: 40px;
+
+    flex-grow: 1;
+    background: linear-gradient(180deg, #101828 65%, #DBB458 100%);
+
+    color: white;
+}
+
+.footer-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-info p {
+    margin: 0px;
+}
+ 
+.logo-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+
+    gap: 8px;
+
+    margin-bottom: 24px;
+}
+
+.logo-wrapper .icon {
+    width: 146px;
+    height: 56px;
+}
+
+.logo-wrapper .text {
+    width: 118px;
+    height: 36px;
+}
+
+.footer-info .info {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+    width: fit-content;
+
+    margin-top: 24px;
+}
+
+.footer-info .info img {
+    width: 24px;
+    height: auto;
+}
+
+.consult-btn {
+    width: fit-content;
+    margin-top: 24px;
+}
+
+.creditos {
+    opacity: 0.6;
+    margin-bottom: 16px;
+    margin-right: 16px;
+    text-align: end;
+}
