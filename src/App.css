@@ -30,3 +30,8 @@ button.main-button:hover {
     background-repeat: no-repeat;
     background-position: 95% center;
 }
+
+a{
+    text-decoration: none;
+    color: inherit;
+}

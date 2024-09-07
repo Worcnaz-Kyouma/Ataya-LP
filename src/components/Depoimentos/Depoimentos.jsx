@@ -4,7 +4,7 @@ import Depoimento from "../Depoimento/Depoimento"
 import "./Depoimentos.css"
 
 export default function Depoimentos() {
-    return <div className="depoimentos">
+    return <div id="depoimentos" className="depoimentos">
         <Title className="title">Depoimentos</Title>
         <content>
             <div className="dentada-wrapper">

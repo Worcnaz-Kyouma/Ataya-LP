@@ -4,7 +4,7 @@ import Tratamento from "./../Tratamento/Tratamento"
 import "./Tratamentos.css"
 
 export default function Tratamentos() {
-    return <div className="tratamentos">
+    return <div id="tratamentos" className="tratamentos">
         <Title>Nossos tratamentos</Title>
         <content>
             <Tratamento nome="Odontologia geral" iconeURL="/odontologia-geral.png">Responsável por cuidar da saúde bucal de forma completa e abrangente. Ele é o primeiro ponto de contato para a maioria das pessoas e atua na prevenção, diagnóstico e tratamento de diversas condições bucais.</Tratamento>

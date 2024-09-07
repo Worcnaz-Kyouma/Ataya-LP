@@ -85,3 +85,64 @@
 
     margin-top: 40px;
 }
+
+@media only screen and (max-width: 600px) {
+    .home {
+        padding: 20px 0px;
+
+        height: 50vh;
+    }
+
+    .home-header {
+        gap: 24px;
+    }
+
+    .logo {
+        width: 108px;
+    }
+
+    .home-header nav {
+        display: none;
+    }
+
+    .home-content {
+        display: flex;
+        align-items: center;
+
+        width: 100%;
+        margin-top: 6%;
+        margin-left: auto;
+    
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .home-content .content-header {
+        margin: 0px;
+    
+        font-weight: 700;
+        font-size: 8vw;
+        line-height: 10vw;
+
+        text-align: center;
+    
+        color: white;
+    }
+    
+    .home-content .content-data {
+        margin: 0px;
+        font-weight: 500;
+        font-size: 5vw;
+    
+        text-align: center;
+
+        color: white;
+    }
+    
+    .home-content .content-button {
+        width: fit-content;
+    
+        font-size: 4vw;
+    }
+}

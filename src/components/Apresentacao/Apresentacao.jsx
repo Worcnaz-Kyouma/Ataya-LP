@@ -1,7 +1,7 @@
 import "./Apresentacao.css"
 
 export default function Apresentacao() {
-    return <div className="apresentacao">
+    return <div id="apresentacao" className="apresentacao">
         <div className="info">
             <h1 className="serial">CRO 15003-PR</h1>
             <h2 className="name">Dr. Hassan Ataya</h2>

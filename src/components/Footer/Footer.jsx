@@ -2,7 +2,7 @@ import Title from "../Title/Title"
 import "./Footer.css"
 
 export default function Footer() {
-    return <footer>
+    return <footer id="footer">
         <Title>Nossa localização</Title>
         <content>
             <img src="localizacao.png" alt="R. Guaíra, 3439 - Centro, Guarapuava - PR, 85010-010" className="localizacao"/>
@@ -24,7 +24,7 @@ export default function Footer() {
                         <img src="icon/whatsapp.png" alt="whatsapp" />
                         <p>+55 42 8831-2411</p>
                     </span>
-                    <button className="main-button consult-btn">Marque uma consulta</button>
+                    <a href="https://wa.me/5542988312411" target="_blank"><button className="main-button consult-btn">Marque uma consulta</button></a>
                 </div>
                 <span className="creditos">Feito com &#9829; por @prado-worc & Gustavo Ott</span>
             </div>
