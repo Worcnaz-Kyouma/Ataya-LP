@@ -1,5 +1,5 @@
 footer .title {
-    margin-left: 120px;
+    margin-left: 8%;
     margin-bottom: 16px;
 }
 
@@ -83,4 +83,47 @@ footer content {
     margin-bottom: 16px;
     margin-right: 16px;
     text-align: end;
+}
+
+@media only screen and (max-width: 600px) {
+    .localizacao {
+        display: none;
+    }
+
+    .footer-data {
+        padding-top: 16px;
+        padding-left: 16px;
+
+        font-size: 3vw;
+    }
+
+    .logo-wrapper .icon {
+        width: 73px;
+        height: 28px;
+    }
+
+    .logo-wrapper .text {
+        width: 59px;
+        height: 18px;
+    }
+    
+    .footer-info .info img {
+        width: 3vw;
+        height: auto;
+    }
+
+    .footer-info .info {
+        margin-top: 8px;
+    }
+
+    .consult-btn-wrapper {
+        text-align: end;
+        margin-right: 4vw;
+
+        margin-bottom: 4vw;
+    }
+
+    .consult-btn {
+        font-size: 3vw !important;
+    }
 }

@@ -1,9 +1,12 @@
 import Title from "../Title/Title"
 import "./Footer.css"
 
-export default function Footer() {
+export default function Footer({ isMobile }) {
     return <footer id="footer">
-        <Title>Nossa localização</Title>
+        {!isMobile 
+            ? <Title>Nossa localização</Title>
+            : <Title>Contatos</Title>
+        }
         <content>
             <img src="localizacao.png" alt="R. Guaíra, 3439 - Centro, Guarapuava - PR, 85010-010" className="localizacao"/>
             <div className="footer-data">
@@ -24,7 +27,7 @@ export default function Footer() {
                         <img src="icon/whatsapp.png" alt="whatsapp" />
                         <p>+55 42 8831-2411</p>
                     </span>
-                    <a href="https://wa.me/5542988312411" target="_blank"><button className="main-button consult-btn">Marque uma consulta</button></a>
+                    <div className="consult-btn-wrapper"><a href="https://wa.me/5542988312411" target="_blank"><button className="main-button consult-btn">Marque uma consulta</button></a></div>
                 </div>
                 <span className="creditos">Feito com &#9829; por @prado-worc & Gustavo Ott</span>
             </div>

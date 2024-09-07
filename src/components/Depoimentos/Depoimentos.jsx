@@ -1,25 +1,9 @@
 import Title from "./../Title/Title"
 import Depoimento from "../Depoimento/Depoimento"
-import { useState, useEffect } from "react";
 
 import "./Depoimentos.css"
 
-export default function Depoimentos() {
-    const [isMobile, setIsMobile] = useState(false);
-    
-    useEffect(() => {
-        const mediaQuery = window.matchMedia("(max-width: 600px)");
-
-        // Set initial value
-        setIsMobile(mediaQuery.matches);
-
-        // Add listener to handle screen size changes
-        const handleResize = () => setIsMobile(mediaQuery.matches);
-        mediaQuery.addEventListener("change", handleResize);
-
-        // Clean up listener on component unmount
-        return () => mediaQuery.removeEventListener("change", handleResize);
-    }, []);
+export default function Depoimentos({ isMobile }) {
 
     if(isMobile)
         return <div id="depoimentos" className="depoimentos">
