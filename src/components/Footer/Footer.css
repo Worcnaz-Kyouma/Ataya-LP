@@ -94,7 +94,7 @@ footer content {
         padding-top: 16px;
         padding-left: 16px;
 
-        font-size: 3vw;
+        font-size: 3.5vw;
     }
 
     .logo-wrapper .icon {
@@ -124,6 +124,6 @@ footer content {
     }
 
     .consult-btn {
-        font-size: 3vw !important;
+        font-size: 3.5vw !important;
     }
 }

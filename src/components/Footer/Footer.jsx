@@ -21,7 +21,7 @@ export default function Footer({ isMobile }) {
                     </span>
                     <span className="info">
                         <img src="icon/instagram.png" alt="instagram" />
-                        <p>@drhassanataya</p>
+                        <a href="https://www.instagram.com/drhassanataya/" target="_blank"><p>@drhassanataya</p></a>
                     </span>
                     <span className="info">
                         <img src="icon/whatsapp.png" alt="whatsapp" />
