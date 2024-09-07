@@ -12,7 +12,7 @@ export default function Apresentacao() {
         <div className="doctor-wrapper">
             <div className="golden-border"></div>
             <div className="doctor">
-                <img src="/sigmahassan.png" alt="Dr. Hassan Ataya" />
+                <img src="./sigmahassan.png" alt="Dr. Hassan Ataya" />
             </div>
         </div>
     </div>

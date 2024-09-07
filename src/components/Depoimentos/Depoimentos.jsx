@@ -10,7 +10,7 @@ export default function Depoimentos({ isMobile }) {
             <Title className="title">Depoimentos</Title>
             <div className="content">
                 <div className="dentada-wrapper">
-                    <img src="/dentada2.png" alt="Grandes resultados!" />
+                    <img src="./dentada2.png" alt="Grandes resultados!" />
                 </div>
             </div>
             <Depoimento model="alternate" name="Kauanna Prado" depoimento="Experiência incrível, atendimento totalmente diferenciado, top demais!! Dr Hassan super atencioso e ótimo profissional.. recomendo de olhos fechados - Via Google"/>
@@ -22,7 +22,7 @@ export default function Depoimentos({ isMobile }) {
         <Title className="title">Depoimentos</Title>
         <div className="content">
             <div className="dentada-wrapper">
-                <img src="/dentada2.png" alt="Grandes resultados!" />
+                <img src="./dentada2.png" alt="Grandes resultados!" />
             </div>
             <div className="depoimentos-clientes">
                 <Depoimento name="Kauanna Prado" depoimento="Experiência incrível, atendimento totalmente diferenciado, top demais!! Dr Hassan super atencioso e ótimo profissional.. recomendo de olhos fechados - Via Google"/>
