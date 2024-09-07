@@ -3,7 +3,7 @@ import "./Home.css"
 export default function Home() {
     return <div className="home">
         <header className="home-header">
-            <img className="logo" src="/logo.png" alt="Hassan Ataya Odontologia" />
+            <img className="logo" src="./logo.png" alt="Hassan Ataya Odontologia" />
             <nav><ul>
                 <li><a href="#apresentacao">Quem somos</a></li>
                 <li><a href="#depoimentos">Depoimentos</a></li>
