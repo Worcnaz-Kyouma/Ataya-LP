@@ -29,7 +29,7 @@ export default function Footer({ isMobile }) {
                     </span>
                     <div className="consult-btn-wrapper"><a href="https://wa.me/5542988312411" target="_blank"><button className="main-button consult-btn">Marque uma consulta</button></a></div>
                 </div>
-                <span className="creditos">Feito com &#9829; por @prado-worc & Gustavo Ott</span>
+                <span className="creditos">Feito com &#9829; por @prado-worc & @gustavo.ch.ott</span>
             </div>
         </div>
     </footer>
