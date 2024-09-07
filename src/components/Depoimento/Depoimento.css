@@ -18,3 +18,19 @@
     
     color: white;
 }
+
+@media only screen and (max-width: 600px) {
+    
+    .depoimento-nome {
+        font-size: 6.75vw;
+    }
+
+    .depoimento-text {
+        font-weight: 500;
+        font-size: 4.5vw;
+    
+        font-style: italic;
+        
+        color: white;
+    }
+}
