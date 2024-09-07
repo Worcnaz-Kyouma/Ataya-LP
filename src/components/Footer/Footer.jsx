@@ -7,7 +7,7 @@ export default function Footer({ isMobile }) {
             ? <Title>Nossa localização</Title>
             : <Title>Contatos</Title>
         }
-        <content>
+        <div className="content">
             <img src="localizacao.png" alt="R. Guaíra, 3439 - Centro, Guarapuava - PR, 85010-010" className="localizacao"/>
             <div className="footer-data">
                 <div className="footer-info">
@@ -31,6 +31,6 @@ export default function Footer({ isMobile }) {
                 </div>
                 <span className="creditos">Feito com &#9829; por @prado-worc & Gustavo Ott</span>
             </div>
-        </content>
+        </div>
     </footer>
 }

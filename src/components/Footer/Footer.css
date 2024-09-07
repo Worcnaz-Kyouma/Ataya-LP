@@ -3,7 +3,7 @@ footer .title {
     margin-bottom: 16px;
 }
 
-footer content {
+footer .content {
     position: relative;
     display: flex;
     flex-direction: row;

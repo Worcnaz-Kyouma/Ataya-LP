@@ -3,6 +3,7 @@ import Apresentacao from './components/Apresentacao/Apresentacao'
 import Depoimentos from './components/Depoimentos/Depoimentos'
 import Tratamentos from './components/Tratamentos/Tratamentos'
 import Footer from './components/Footer/Footer'
+import WhatsappButton from './components/WhatsappButton/WhatsappButton';
 
 import { useState, useEffect } from 'react'
 
@@ -31,5 +32,6 @@ export default function App() {
         <Depoimentos isMobile={isMobile}/>
         <Tratamentos/>
         <Footer isMobile={isMobile}/>
+        <WhatsappButton />
     </>
 }

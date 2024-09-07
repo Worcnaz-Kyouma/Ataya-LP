@@ -9,7 +9,7 @@
     margin-bottom: 24px;
 }
 
-.depoimentos content {
+.depoimentos .content {
     position: relative;
 
     display: flex;
@@ -52,7 +52,7 @@
         height: 38vw;
     }
 
-    .depoimentos content {
+    .depoimentos .content {
         justify-content: center;
     }
 }

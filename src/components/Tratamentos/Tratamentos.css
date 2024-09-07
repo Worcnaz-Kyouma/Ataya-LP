@@ -2,7 +2,7 @@
     padding: 40px 8%;
 }
 
-.tratamentos content {
+.tratamentos .content {
     display: flex;
     justify-content: space-between;
     gap: 8px;
@@ -11,7 +11,7 @@
 }
 
 @media only screen and (max-width: 600px) {
-    .tratamentos content {
+    .tratamentos .content {
         flex-direction: column;
         gap: 24px;
     }
