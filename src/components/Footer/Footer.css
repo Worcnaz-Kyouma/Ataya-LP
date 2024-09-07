@@ -116,14 +116,7 @@ footer .content {
         margin-top: 8px;
     }
 
-    .consult-btn-wrapper {
-        text-align: end;
-        margin-right: 4vw;
-
-        margin-bottom: 4vw;
-    }
-
-    .consult-btn {
-        font-size: 3.5vw !important;
+    .creditos {
+        margin-top: 24px;
     }
 }

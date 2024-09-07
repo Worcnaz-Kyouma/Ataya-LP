@@ -3,10 +3,8 @@ import "./Footer.css"
 
 export default function Footer({ isMobile }) {
     return <footer id="footer">
-        {!isMobile 
-            ? <Title>Nossa localização</Title>
-            : <Title>Contatos</Title>
-        }
+        {!isMobile && <Title>Nossa localização</Title>}
+        
         <div className="content">
             <img src="./localizacao.png" alt="R. Guaíra, 3439 - Centro, Guarapuava - PR, 85010-010" className="localizacao"/>
             <div className="footer-data">
@@ -27,7 +25,7 @@ export default function Footer({ isMobile }) {
                         <img src="./icon/whatsapp.png" alt="whatsapp" />
                         <p>+55 42 8831-2411</p>
                     </span>
-                    <div className="consult-btn-wrapper"><a href="https://wa.me/5542988312411" target="_blank"><button className="main-button consult-btn">Marque uma consulta</button></a></div>
+                    {!isMobile && <div className="consult-btn-wrapper"><a href="https://wa.me/5542988312411" target="_blank"><button className="main-button consult-btn">Marque uma consulta</button></a></div>}
                 </div>
                 <span className="creditos">Feito com &#9829; por @prado-worc & @gustavo.ch.ott</span>
             </div>
