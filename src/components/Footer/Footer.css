@@ -25,6 +25,8 @@ footer content {
     background: linear-gradient(180deg, #101828 65%, #DBB458 100%);
 
     color: white;
+
+    font-size: 1vw;
 }
 
 .footer-info {

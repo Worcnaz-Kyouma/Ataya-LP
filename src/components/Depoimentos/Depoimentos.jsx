@@ -8,13 +8,13 @@ export default function Depoimentos() {
         <Title className="title">Depoimentos</Title>
         <content>
             <div className="dentada-wrapper">
-                <img src="/dentada.png" alt="Grandes resultados!" />
+                <img src="/dentada2.png" alt="Grandes resultados!" />
             </div>
             <div className="depoimentos-clientes">
-                <Depoimento name="Jose" depoimento="Atendimento nota 10, desde a recepção até o tratamento. Parabéns a toda equipe, pelo profissionalismo e carinho que tratam os clientes!"/>
-                <Depoimento name="Maria" depoimento="Atendimento nota 10, desde a recepção até o tratamento. Parabéns a toda equipe, pelo profissionalismo e carinho que tratam os clientes!"/>
+                <Depoimento name="Kauanna Prado" depoimento="Experiência incrível, atendimento totalmente diferenciado, top demais!! Dr Hassan super atencioso e ótimo profissional.. recomendo de olhos fechados - Via Google"/>
+                <Depoimento model="alternate" name="Mayara Martini" depoimento="Sempre bem atendida, Dr Hassan profissional top, com uma equipe sempre atenciosa e preparada! - Via Google"/>
             </div>
         </content>
-        <Depoimento model="alternate" name="Joe Doe" depoimento="Atendimento nota 10, desde a recepção até o tratamento. Parabéns a toda equipe, pelo profissionalismo e carinho que tratam os clientes!"/>
+        <Depoimento name="Mari Gomes" depoimento="Excelente atendimento desde o primeiro contato via whats até o fechamento do tratamento, profissionais de alta qualidade, eu e toda minha família somos pacientes e recomendamos a Clínica Hassan Ataya Odontologia!! - Via Google"/>
     </div>
 }

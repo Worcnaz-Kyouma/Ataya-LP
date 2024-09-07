@@ -31,10 +31,17 @@
 }
 
 .home-header nav ul li{
-    font-size: 20px;
+    font-size: 1.25vw;
     font-weight: 700;
 
     color: white;
+    cursor: pointer;
+
+    transition: all 0.4s;
+}
+
+.home-header nav ul li:hover{
+    color: var(--gold-color);
 }
 
 .home-body {
@@ -68,7 +75,7 @@
 .home-content .content-data {
     margin: 0px;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 1.5vw;
 
     color: white;
 }

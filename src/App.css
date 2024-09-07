@@ -11,8 +11,22 @@ button.main-button {
 
     font-family: 'Darker Grotesque', sans-serif;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 1vw;
 
     background-color: var(--gold-color);
     color: black;
+
+    cursor: pointer;
+    background-position: right center;
+    
+    transition: all 0.4s;
+}
+
+button.main-button:hover {
+    padding-right: 36px;
+
+    background-image: url('/icon/arrow.png');
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position: 95% center;
 }
